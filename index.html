@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>D×2 真・女神転生 リベレーション 「〇〇を作るには」</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+<link href="css/style.min.css" rel="stylesheet">
+<link href="http://code.jquery.com/ui/1.10.3/themes/cupertino/jquery-ui.min.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/script.min.js"></script>
+<script src="js/autowrite.js"></script>
+
+<header>
+	<h1>「〇〇を作るには」</h1>
+</header>
+
+<div id="search-demon">
+	<ul id="search-info">
+		<li id="info-ic">Img</li>
+		<li id="info-name"><label for="search">Search Name :</label><input type="text" name="search" id="search" value="" placeholder="例: スライム"><button id="search-btn" type="button">検索</button></li>
+		<li id="info-type">Type :<span>&nbsp;</span></li>
+		<li id="info-grade">Grade :<span>&nbsp;</span></li>
+		<li id="info-rare">Rare :<span>&nbsp;</span></li>
+	</ul>
+	<div id="search-remove">
+		<p>除外したい組み合わせ :</p>
+		<ul>
+			<li><input type="checkbox" id="rare1"><label for="rare1">★1</label></li>
+			<li><input type="checkbox" id="rare2"><label for="rare2">★2</label></li>
+			<li><input type="checkbox" id="rare3"><label for="rare3">★3</label></li>
+			<li><input type="checkbox" id="rare4"><label for="rare4">★4</label></li>
+			<li><input type="checkbox" id="rare5"><label for="rare5">★5</label></li>
+		</ul>
+	</div>
+</div>
+
+<section id="result">
+	<h2>検索結果</h2>
+</section>
+
+<footer>
+	<p><img src="img/logo.png" alt=""><small> ©SEGA/©ATLUS</small></p>
+</footer>
+</html>
