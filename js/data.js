@@ -259,7 +259,7 @@ var data = [
 		"list": [
 			{ "name": "アガシオン", "grade": 5, "rare": "★", "img":"img/agashion.png" },
 			{ "name": "コッパテング", "grade": 7, "rare": "★", "img":"img/koppatengu.png" },
-			{ "name": "アプラサス", "grade": 11, "rare": "★", "img":"img/apurasasu.png" },
+			{ "name": "アプサラス", "grade": 11, "rare": "★", "img":"img/apusarasu.png" },
 			{ "name": "ディース", "grade": 34, "rare": "★★", "img":"img/dhisu.png" },
 			{ "name": "ヴァルキリー", "grade": 40, "rare": "★★★", "img":"img/varukiri.png" },
 			{ "name": "イフリート", "grade": 52, "rare": "★★★", "img":"img/ifurito.png" },
